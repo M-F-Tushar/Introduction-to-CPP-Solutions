@@ -3,7 +3,7 @@
 int main()
 {
 int j = 4.5;
-unsigned float i = 1.23;
+unsigned float i = 1.23; //float cannot be declared as unsigned. This is a syntax error.
 double j = 6.7;
 k = 10;
 cout << "Nice << '\n';
